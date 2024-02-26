@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body */
+body {
+  font-family: 'Bitter';
+}
+
+/* Header */
+.header {
+  background-color: #7a34c1;
+  padding: 7rem 0 14rem 0;
+}
+
+.header-text {
+  color: #fff;
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.header-text h1 {
+  margin: 0 0 1.5rem 0;
+}
+
+hr {
+  margin-top: 2rem;
+}
+
+/* Post Date */
+.post-date {
+  font-weight: 900;
+  text-align: center;
+  margin: 3rem 0 2rem 0;
+}
+
+/* Blog Post */
+.blog-post {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.summary p {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.quote {
+  width: 90%;
+  font-weight: 600;
+  line-height: 2rem;
+  font-style: italic;
+  margin-left: 4rem;
+  padding-left: 2rem;
+  border-left: 0.25rem solid crimson;
+}
+
+cite {
+  font-weight: 600;
+  font-style: italic;
+  margin-left: 6rem;
+}
+
+/* General Styles */
+h1 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 2rem 0 2rem 0;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 2rem;
+  margin: 1.5rem 0;
+  font-weight: 600;
+}
+
+span {
+  color: crimson;
+}
+
+/* Footer */
+.footer {
+  background-color: #7a34c1;
+  padding: 2rem;
+}
+
+.footer ul {
+  display: flex;
+  width: 70%;
+  margin: 0 20%;
+}
+
+footer li {
+  margin-left: 4rem;
+  list-style-type: none;
+  color: white;
+  font-weight: 600;
+}

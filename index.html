@@ -3,17 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
     <title>All about CSS</title>
   </head>
   <body>
     <header class="header">
-      <h1>Typography</h1>
-      <p>
-        Typography is one of the most important elements of front end design and
-        development! In this exercise, we'll play around with some of the common
-        CSS properties to manage and style our fonts by making a nice blog
-        post-like web page.
-      </p>
+      <div class="header-text">
+        <h1>Typography</h1>
+        <p>
+          Typography is one of the most important elements of front end design
+          and development! In this exercise, we'll play around with some of the
+          common CSS properties to manage and style our fonts by making a nice
+          blog post-like web page.
+        </p>
+        <hr />
+      </div>
     </header>
 
     <div class="blog-post">
@@ -22,7 +32,7 @@
       <div class="summary">
         <p>
           Headlines, like this one, are great ways to quickly capture the
-          reader's attention, to give them a sumary, intro, or other important
+          reader's attention, to give them a summary, intro, or other important
           information in a web page. You can use text-transform: uppercase; to
           make a whole body of text uppercase using CSS if you really need to
           grab attention!
@@ -49,7 +59,7 @@
         it stands out a bit as a non-body text quote.
       </p>
 
-      <blockquote>
+      <blockquote class="quote">
         "This is a quote - you probably knew that at a glance since we gave it
         some nice styling. Pretty nice, huh? A great lesson in User Experience
         Design, where we take special care to implement our web page in a way
@@ -98,7 +108,7 @@
       </p>
 
       <h2 class="font-sizing">Common Font Sizing Approaches</h2>
-      <h3><span>px</span> (pixels)</h3>
+      <h2><span>px</span> (pixels)</h2>
 
       <p>
         Pixels are the simplest way to hard code your font size. By default the
@@ -127,7 +137,7 @@
         font size ever changes, this paragraph will also change accordingly.
       </p>
 
-      <h3>Which one do I use?</h3>
+      <h2>Which one do I use?</h2>
       <p>
         Great question! Generally, people try to stick to using em or rem over
         px, since they make responsive typography that scales up and down across
@@ -159,3 +169,5 @@
     </footer>
   </body>
 </html>
+
+<!-- Live at https://rspatz.github.io/blog-post/ -->
