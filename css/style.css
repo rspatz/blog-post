@@ -103,3 +103,50 @@ footer li {
   color: white;
   font-weight: 600;
 }
+
+/* Media Queries */
+@media screen and (max-width: 480px) {
+  .header {
+    width: 100%;
+    margin: 0;
+  }
+
+  .header-text {
+    color: #fff;
+    width: 90%;
+    text-align: center;
+    margin: 0 5%;
+  }
+
+  .header-text h1 {
+    margin: 0 0 1.5rem 0;
+  }
+
+  /* Post Date */
+  .post-date {
+    font-weight: 900;
+    text-align: center;
+    margin: 3rem 0 0 0;
+  }
+
+  /* Blog Post */
+  .blog-post {
+    width: 90%;
+    margin: 0 5%;
+  }
+
+  .quote {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    border-left: 0.25rem solid crimson;
+  }
+
+  .footer {
+    margin: 0;
+  }
+
+  .footer ul {
+    flex-direction: column;
+  }
+}
