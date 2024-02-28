@@ -10,6 +10,8 @@ body {
 
 /* Header */
 .header {
+  height: 70vh;
+  width: 100%;
   background-color: #7a34c1;
   padding: 7rem 0 14rem 0;
 }
